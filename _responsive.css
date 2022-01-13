@@ -1,0 +1,8 @@
+@media only screen and (max-width:792px) {
+    main .project-area .button-group button {
+        font: normal 500 18px/40px var(--rale);
+    }
+    main .project-area .button-group button {
+        padding: 0%;
+    }
+}

@@ -1,0 +1,64 @@
+/*font-family:ncing_script*/
+
+@font-face {
+    font-family: Dancing_Script;
+    src: url('../Dancing_Script\, Lato\, Libre_Baskerville\, Montserrat\, Open_Sans\, etc/Dancing_Script/Dancingscript-Bold.ttf')
+}
+
+
+/*font-family:ncing_script*/
+
+@font-face {
+    font-family: lato;
+    src: url('../Dancing_Script\, Lato\, Libre_Baskerville\, Montserrat\, Open_Sans\, etc/Lato/Lato-Black.ttf')
+}
+
+
+/*font-family:ncing_script*/
+
+@font-face {
+    font-family: Open_Sans;
+    src: url('../Dancing_Script\, Lato\, Libre_Baskerville\, Montserrat\, Open_Sans\, etc/Open_Sans/OpenSans-Bold.ttf')
+}
+
+
+/*font-family:ncing_script*/
+
+@font-face {
+    font-family: Raleway;
+    src: url('../Dancing_Script\,Lato\,Libre_Baskerville\,Montserrat\,Open_Sans\,etc/Raleway/Raleway-italic-VariableFontwght.ttf')
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../Dancing_Script\,Lato\,Libre_Baskerville\,Montserrat\,Open_Sans\,etc/Montserrat/Montserrat-Black.ttf')
+}
+
+button:focus,
+button:active button:hover .btn:active,
+.btn.active {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.title-h1 {
+    font: normal bold 39px/40px var(--rale);
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media(min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+}
